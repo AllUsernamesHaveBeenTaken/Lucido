@@ -1,2 +1,2 @@
-# Lucido
-School Project
+# Lucidio
+Website  - School Project
