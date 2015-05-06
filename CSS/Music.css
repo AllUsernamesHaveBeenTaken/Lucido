@@ -20,14 +20,12 @@ header h2 {
 }
 
 header p {
-	background-image: url(../IMG/MusicHeader.jpg);
+	background-image: url(../IMG/MusicHeader3.png);
 	width: 57rem;
 	height: 38rem;
 	background-repeat: no-repeat;
 	background-position: center;
 	margin-left: 27rem;
-
-
 }
 
 a {
