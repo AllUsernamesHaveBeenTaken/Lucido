@@ -29,18 +29,21 @@ fieldset {
 	display: inline;
 	font: normal normal normal 16px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
 	color: #9E97A4;
+	padding: 0rem 2rem 0rem 4rem;
+
+}
+
+#info li a {
+	font-size: 1rem;
+
 }
 
 #info li:first-child {
 	font: normal normal normal 23px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
 	color: #5D4E67;
-}
+	border-right: solid white 0.4rem;
+	text-align: left;
 
-#info li:first-child:after {
-	content: "|";
-	color: white;
-	font-size: 5rem;
-		
 }
 
 #info ul {
@@ -126,4 +129,8 @@ form #sc {
 fieldset dl {
 	position: absolute;
 	top: 25rem;
+}
+
+li {
+	list-style-type: none;
 }
