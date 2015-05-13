@@ -52,12 +52,13 @@ header
 #mainmenu {
 	float: right;
 	margin-top: 6rem;
+
 }
 
 .navigationAndLogo {
 
 	height: 14rem;
-	max-width: 103rem;
+	max-width: 54%;
 	min-width: 63rem;
 } 
 
