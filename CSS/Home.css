@@ -1,5 +1,5 @@
 header {
-	background-image: url(../IMG/Header4.jpg);
+	background-image: url(../IMG/Header5.png);
 	width:100%;
 	height: 55rem;
 	background-repeat: no-repeat;
@@ -12,11 +12,15 @@ header p {
 	text-align: left;
 	font-size: 5.7rem;
 	font-weight: 900;
-	height: 32rem;
-	width: 100rem;
-	margin-left: 45rem;
-	margin-right: 60rem;
-	padding-top: 25rem;
+	height: 42.5rem;
+	width: 103rem;
+	border: solid;
+	border-width: 1.5rem;
+	padding-top: 16rem;
+	position: absolute;
+  top: 20rem;
+  left: 33rem;
+  padding-left: 5rem;
 }
 
 blockquote { 
@@ -32,7 +36,7 @@ a {
 	text-decoration: none;
 }
 
-section p {
+a p {
 	border: solid;
 	color: #9e97a4;
 	border-color: white;
@@ -46,7 +50,7 @@ section p {
 	clear: both;
 }
 
-section p:hover {
+a p:hover {
 	border-color: #5d4e67;
 }
 

@@ -17,12 +17,20 @@ body {
 	color: #222;
 	text-align: center;
 	background-color: #efeeea;
-	max-width: 166.3rem;
 }
 
 body > * { 
 	font-size: 1.3rem;
 	line-height: 1.5;
+}
+.wrapper {
+	max-width: 168rem;
+	min-width: 63rem; 
+}
+
+.navwrapper{
+	background-color: white; 
+
 }
 
 .ir {
@@ -43,20 +51,27 @@ header
 *****/
 #mainmenu {
 	float: right;
-	position: absolute;
-	top: 6rem;
-	right: 50rem;
+	margin-top: 6rem;
 }
 
+.navigationAndLogo {
+
+	height: 14rem;
+	max-width: 103rem;
+	min-width: 63rem;
+	padding-right: 1rem;
+} 
+
 h1 {
-	background-color: white;
+	float: left;
+	width: 15rem;
+
 }
 
 h1 a {
 	background-image: url(../IMG/Logo.jpg);
 	width: 13.5rem;
 	height: 13.5rem;
-	margin-left: 41rem;
 }
 
 nav li{

@@ -32,7 +32,7 @@ a {
 	text-decoration: none;
 }
 
-a section p {
+a p {
 	border: solid;
 	color: #9e97a4;
 	border-color: white;
@@ -44,7 +44,7 @@ a section p {
 	font-size: 1.6rem;
 }
 
-section p:hover {
+p:hover {
 	border-color: #5d4e67;
 }
 
