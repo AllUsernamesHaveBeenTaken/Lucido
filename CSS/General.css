@@ -25,7 +25,7 @@ body > * {
 }
 .wrapper {
 	max-width: 168rem;
-	min-width: 63rem; 
+	min-width: 61rem; 
 }
 
 .navwrapper{
@@ -59,7 +59,6 @@ header
 	height: 14rem;
 	max-width: 103rem;
 	min-width: 63rem;
-	padding-right: 1rem;
 } 
 
 h1 {
@@ -107,7 +106,7 @@ footer {
 footer p {
 	padding-top: 5rem;
 	float: left;
-	margin-left: 37rem;n
+	margin-left: 20%;
 }
 
 footer a {
@@ -150,6 +149,6 @@ footer #sc {
 
 footer ul {
 	float: right;
-	margin-right: 37.5rem;
-	margin-top: 3.5rem;
+	margin-right: 20%;
+	margin-top: 4.5rem;
 }
