@@ -24,7 +24,7 @@ body > * {
 	line-height: 1.5;
 }
 .wrapper {
-	max-width: 168rem;
+	max-width: 200rem;
 	min-width: 61rem; 
 }
 
@@ -58,7 +58,7 @@ header
 .navigationAndLogo {
 
 	height: 14rem;
-	max-width: 54%;
+	max-width: 53.5%;
 	min-width: 63rem;
 } 
 
