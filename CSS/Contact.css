@@ -1,0 +1,134 @@
+form {
+	border: 1.3rem solid white;
+	width: 89rem;
+	height: 66.9rem;
+	margin-top: 7.9rem;
+	margin-bottom: 15.8rem;
+}
+
+fieldset {
+	border: none;
+	float: left;
+	margin-left: 6.5rem;
+	margin-top: 6.5rem;
+}
+
+#info{
+	float: left;
+	margin-left: 48.5rem;
+	margin-top: -51rem;
+	height: 6rem;
+	width: 36.2rem;
+	display: block;
+}
+
+#info li {
+	text-decoration: none;
+	display: inline;
+	font: normal normal normal 16px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+	color: #9E97A4;
+	padding: 0rem 2rem 0rem 4rem;
+
+}
+
+#info li a {
+	font-size: 1rem;
+
+}
+
+#info li:first-child {
+	font: normal normal normal 23px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+	color: #5D4E67;
+	border-right: solid white 0.4rem;
+	text-align: left;
+
+}
+
+#info ul {
+	border: solid 0.5rem white;
+	margin-bottom: 2rem;
+}
+
+h2 {
+	font: normal normal bold 6.4rem/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+	color: #5D4E67;
+	text-align: left;
+}
+
+input, textarea {
+	border: none;
+	width: 36.5rem;
+	height: 3.1rem;
+	padding: 0.5rem;
+	margin-bottom: 0.5rem;
+	font: normal normal normal 15px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+	outline: none;
+}
+
+textarea {
+	height: 12rem;
+}
+
+p input {
+	height: 3rem;
+	width: 4.6rem;
+	font: normal normal normal 16px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+	background-color: rgba(93, 78, 103, 1);
+	color: rgba(239, 238, 234, 1);
+	cursor: pointer;
+	float: left;
+	margin-left: -4.7rem;
+	margin-top: 55.6rem;
+}
+
+#info a {
+	cursor: pointer;
+	text-decoration: none;
+	color: #9E97A4;
+}
+
+form #fb {
+	background-image: url(../IMG/FacebookIconBLK.png);
+	background-repeat: no-repeat;
+	width: 4.1rem;
+	height: 4.1rem;
+	background-size: 100%;
+	margin-left: 0.8rem;
+	float: left;
+	margin-left: 60rem;
+	margin-top: -20rem;
+
+}
+
+form #yt {
+	background-image: url(../IMG/YoutubeIconBLK.png);
+	background-repeat: no-repeat;
+	width: 4.1rem;
+	height: 4.1rem;
+	background-size: 100%;
+	margin-left: 0.8rem;
+	float: left;
+	margin-left: 65rem;
+	margin-top: -20rem;
+}
+
+form #sc {
+	background-image: url(../IMG/SoundcloudIconBLK.png);
+	background-repeat: no-repeat;
+	width: 4.1rem;
+	height: 4.1rem;
+	background-size: 100%;
+	margin-left: 0.8rem;
+	float: left;
+	margin-left: 70rem;
+	margin-top: -20rem;
+
+}
+fieldset dl {
+	float: left;
+	margin-top: 7rem;
+}
+
+li {
+	list-style-type: none;
+}
