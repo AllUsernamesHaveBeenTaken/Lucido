@@ -24,8 +24,6 @@ body > * {
 	line-height: 1.5;
 }
 .wrapper {
-	max-width: 98rem;
-	min-width: 35rem; 
 }
 
 .navwrapper{
