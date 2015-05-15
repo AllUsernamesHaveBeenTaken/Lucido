@@ -1,16 +1,17 @@
 header h2 {
-	background-image: url(../IMG/Header6.png);
-	width: 98rem;
+	background-image: url(../IMG/Header7.png);
+	width: 100%;
+	position: contain;
 	height: 45rem;
 	background-repeat: no-repeat;
 	background-position: center;
-	margin-bottom: -41.5rem;
+	margin-bottom: -39.5rem;
 }
 
 header p {
 	color: white;
 	text-align: left;
-	font-size: 5.7rem;
+	font-size: 4.7rem;
 	font-weight: 900;
 	width: 94%;
 	border: solid;
