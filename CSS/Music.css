@@ -1,5 +1,4 @@
 header {
-	position: relative;
 	border: solid;
 	border-color: white;
 	border-width: 1.2rem;
@@ -14,9 +13,9 @@ header h2 {
 	font: normal normal bold 6.4rem/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
 	color: #5D4E67;
 	padding-top: 25rem;
-	position: absolute;
-	top: -12rem;
-	left: 6.5rem;
+	float: left;
+	margin-top: -12rem;
+	margin-left: 6.5rem;
 }
 
 header p {
@@ -33,6 +32,7 @@ a {
 }
 
 a p {
+	transition: border 0.5s ease;
 	border: solid;
 	color: #9e97a4;
 	border-color: white;
