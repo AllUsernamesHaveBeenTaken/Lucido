@@ -1,24 +1,24 @@
 header h2 {
-	background-image: url(../IMG/Header5.png);
-  width: 200rem;
-  height: 45rem;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: -41.5rem;
+	background-image: url(../IMG/Header6.png);
+	width: 98rem;
+	height: 45rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: -41.5rem;
 }
 
 header p {
 	color: white;
-  text-align: left;
-  font-size: 5.7rem;
-  font-weight: 900;
-  width: 89rem;
-  border: solid;
-  border-width: 1.5rem;
-  padding-top: 8.5%;
-  padding-left: 5rem;
-  padding-bottom: 3rem;
-  margin-bottom: 11rem;
+	text-align: left;
+	font-size: 5.7rem;
+	font-weight: 900;
+	width: 94%;
+	border: solid;
+	border-width: 1.5rem;
+	padding-top: 8.5%;
+	padding-left: 5rem;
+	padding-bottom: 3rem;
+	margin-bottom: 11rem;
 }
 
 p span {
@@ -30,7 +30,7 @@ blockquote {
 	height: 27rem;
 	margin-bottom: 1.2rem;
 	color: #9e97a4;
-	font-size: 1.6rem;
+	font-size: 2rem;
 	padding-top: 4rem;
 }
 
@@ -39,11 +39,11 @@ a {
 }
 
 a p {
+	transition: border 0.5s ease;
 	border: solid;
 	color: #9e97a4;
 	border-color: white;
 	border-width: 0.8rem;
-	margin-top: 85rem;
 	width: 100%;
 	padding: 0.8rem;
 	margin-bottom: 8rem;
@@ -55,25 +55,14 @@ a p:hover {
 	border-color: #5d4e67;
 }
 
-.colleft, .colright {
+#facebook, #soundcloud, #youtube, blockquote {
 	border: solid;
 	border-color: white;
 	border-width: 1.2rem;
 	padding: 1.2rem;
-}
-
-.colleft {
-	width: 68%;
-	margin-bottom: 1.2rem;
-	float: left;
-}
-
-.colright {
-	width: 31%;
-	margin-bottom: 1.2rem;
-	float: right;
+	margin-bottom: 3rem;
 }
 
 .col{
-	width: 89rem;
+	width: 94%;
 }
