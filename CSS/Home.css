@@ -64,6 +64,10 @@ a p:hover {
 	margin-bottom: 3rem;
 }
 
+#youtube {
+	height: 30rem;
+}
+
 .col{
 	width: 94%;
 }
