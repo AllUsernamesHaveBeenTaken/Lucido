@@ -1,7 +1,6 @@
 header h2 {
 	background-image: url(../IMG/Header7.png);
 	width: 100%;
-	position: contain;
 	height: 45rem;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -71,3 +70,61 @@ a p:hover {
 .col {
 	width: 94%;
 }
+
+/*	=============
+	Media Queries
+	=============	*/
+	@media (min-width: 980px) {
+
+		header h2 {
+			background-image: url(../IMG/Header5.png);
+			width: 200rem;
+			height: 45rem;
+			background-repeat: no-repeat;
+			background-position: center;
+			margin-bottom: -41.5rem;
+		}
+
+		header p {
+			text-align: left;
+			font-size: 5.7rem;
+			font-weight: 900;
+			width: 89rem;
+			border: solid;
+			border-width: 1.5rem;
+			padding-top: 8.5%;
+			padding-left: 5rem;
+			padding-bottom: 3rem;
+			margin-bottom: 11rem;
+		}
+
+		blockquote { 
+			font-size: 1.6rem;
+		}
+
+		a p {
+			margin-top: 85rem;
+		}
+
+		#facebook, #soundcloud, #youtube, blockquote{
+			margin-bottom: 1rem;
+		}
+
+		.colleft {
+			width: 68%;
+			float: left;
+		}
+
+		.colright {
+			width: 31%;
+			float: right;
+		}
+
+		.col{
+			width: 89rem;
+		}
+
+		#youtube {
+			height: 51rem;
+		}
+	}
