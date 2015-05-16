@@ -1,0 +1,80 @@
+header {
+	width: 94%;
+
+}
+
+header h2 {
+	font: normal normal bold 5rem/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+	color: #5D4E67;
+	border: solid;
+	border-color: white;
+	border-width: 1.2rem;
+	padding: 1.2rem;
+	margin-top: 6.5rem;
+	margin-bottom: 6rem;
+}
+
+.colleft {
+	text-align: center;
+	border: solid;
+	height: 19rem;
+	border-color: white;
+	border-width:1.2rem;
+	width: 28rem;
+}
+
+.colleft h3 {
+	font: bold normal normal 23px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+	color: #5D4E67;
+	padding-top: 2rem;
+}
+
+.colright {
+	text-align: left;
+	width: 100%;
+	padding-top: 2rem;
+	padding-left: 1rem;
+}
+
+.colright p { 
+	border-bottom: solid;
+	border-width: 0.1rem;
+	border-color: lightgrey;
+	padding-bottom: 2rem;
+}
+.col {
+	width: 94%;
+}
+.song {
+	display: inline-block;
+	padding-bottom: 7rem;
+	width: 94%;
+}
+
+.one {
+	background-image: url(../IMG/AboutMe.png);
+	background-repeat: no-repeat;
+	background-position: 8rem 6rem;
+	background-size: 41%;
+}
+
+.two {
+	background-image: url(../IMG/Music.png);
+	background-repeat: no-repeat;
+	background-position: 6.5rem 6rem;
+	background-size: 50%;
+}
+
+.three {
+	background-image: url(../IMG/Future.png);
+	background-repeat: no-repeat;
+	background-position: 7.5rem 6rem;
+	background-size: 44%;
+}
+
+.four {
+	background-image: url(../IMG/Hard&Soft.png);
+	background-repeat: no-repeat;
+	background-position: 7.5rem 6rem;
+	background-size: 42%;
+}
