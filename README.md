@@ -1,2 +1,0 @@
-# Lucidio
-Website  - School Project
