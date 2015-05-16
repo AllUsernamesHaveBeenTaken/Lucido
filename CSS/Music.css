@@ -10,7 +10,7 @@ header h2 {
 	border: solid;
 	border-color: white;
 	border-width: 1.2rem;
-	}
+}
 
 a {
 	text-decoration: none;
@@ -63,3 +63,62 @@ iframe {
 .col {
 	width: 94%;
 }
+
+/*	=============
+	Media Queries
+	=============	*/
+
+	@media (min-width: 980px) {
+
+		header {
+			border: solid;
+			border-color: white;
+			border-width: 1.2rem;
+			padding: 1.2rem;
+			margin-bottom: 6rem;
+			width: 89rem;
+		}	
+
+		header h2 {
+			color: #5D4E67;
+			padding: 0rem;
+			border: none;
+			padding-top: 25rem;
+			float: left;
+			margin-top: -12rem;
+			margin-left: 6.5rem;
+		}
+
+		header p {
+			background-image: url(../IMG/MusicHeader3.png);
+			width: 57rem;
+			height: 38rem;
+			background-repeat: no-repeat;
+			background-position: center;
+			margin-left: 27rem;
+		}
+
+		a p {
+			width: 89rem;
+		}
+
+		.colleft, .colright {
+			width: 44.5rem;
+			float: left;
+		}
+
+		.colleft {
+			text-align: left;
+		}
+
+		.colright {
+			text-align: right;
+		}
+		.col {
+			width: 89rem;
+		}
+
+		iframe {
+			width: inherit;
+		}
+	}
