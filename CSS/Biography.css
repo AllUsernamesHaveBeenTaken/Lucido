@@ -1,0 +1,161 @@
+header {
+	width: 94%;
+}
+
+header h2 {
+	font: normal normal bold 5rem/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+	color: #5D4E67;
+	border: solid;
+	border-color: white;
+	border-width: 1.2rem;
+	padding: 1.2rem;
+	margin-top: 6.5rem;
+	margin-bottom: 6rem;
+}
+
+.colleft {
+	text-align: center;
+	border: solid;
+	height: 19rem;
+	border-color: white;
+	border-width:1.2rem;
+	width: 28rem;
+}
+
+.colleft h3 {
+	font: bold normal normal 23px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+	color: #5D4E67;
+	padding-top: 2rem;
+}
+
+.colright {
+	text-align: left;
+	width: 100%;
+	padding-top: 2rem;
+	padding-left: 1rem;
+}
+
+.colright p { 
+	border-bottom: solid;
+	border-width: 0.1rem;
+	border-color: lightgrey;
+	padding-bottom: 2rem;
+}
+
+.col {
+	width: 94%;
+}
+
+.row {
+	display: inline-block;
+	padding-bottom: 7rem;
+	width: 94%;
+}
+
+.one {
+	background-image: url(../IMG/AboutMe.png);
+	background-repeat: no-repeat;
+	background-position: 8rem 6rem;
+	background-size: 41%;
+}
+
+.two {
+	background-image: url(../IMG/Music.png);
+	background-repeat: no-repeat;
+	background-position: 6.5rem 6rem;
+	background-size: 50%;
+}
+
+.three {
+	background-image: url(../IMG/Future.png);
+	background-repeat: no-repeat;
+	background-position: 7.5rem 6rem;
+	background-size: 44%;
+}
+
+.four {
+	background-image: url(../IMG/Hard&Soft.png);
+	background-repeat: no-repeat;
+	background-position: 7.5rem 6rem;
+	background-size: 42%;
+}
+
+/*	=============
+	Media Queries
+	=============	*/
+
+	@media (min-width: 55.65em) {
+		header {
+			border: solid;
+			border-color: white;
+			border-width: 1.2rem;
+			padding: 1.2rem;
+			margin-top: 6.5rem;
+			margin-bottom: 6rem;
+			width: 89rem;
+			width: 89rem;
+		}
+
+		header h2 {
+			font: normal normal bold 6.4rem/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+			color: #5D4E67;
+			padding-top: 25rem;
+			float: left;
+			margin-top: -12rem;
+			margin-left: 6.5rem;
+			border: none;
+		}
+
+		header p {
+			background-image: url(../IMG/BioHeader.png);
+			width: 35.4rem;
+			height: 38rem;
+			background-repeat: no-repeat;
+			background-position: center;
+			margin-left: 49rem;
+		}
+
+		.colleft, .colright {
+			float: left;
+		}
+
+		.colleft {
+			width: 33rem;
+			margin-left: 4.5rem;
+		}
+
+		.colright {
+			width: 47rem;
+			padding-left: 5rem;
+			margin-right: 4.5rem;
+		}
+
+		.col {
+			width: 89rem;
+		}
+
+		.row {
+			width: 89rem;
+		}
+
+		.one {
+			background-position: 10.5rem 5rem;
+			background-size: 30%;
+		}
+
+		.two {
+			background-position: 10.5rem 6rem;
+			background-size: 30%;
+		}
+
+		.three {
+			background-position: 10.5rem 6rem;
+			background-size: 30%;
+		}
+
+		.four {
+			background-position: 10.5rem 6rem;
+			background-size: 30%;
+		}
+		
+	}

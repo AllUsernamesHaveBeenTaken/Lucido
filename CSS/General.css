@@ -1,0 +1,210 @@
+html {
+	font-size: 0.625em;
+}
+
+* {
+	margin: 0 auto;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica, Arial; 
+	color: #222;
+	text-align: center;
+	background-color: #efeeea;
+}
+
+body > * { 
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
+.navwrapper{
+	background-color: white; 
+}
+
+.ir {
+	display: block;
+	background-size: 100%; 
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.structural {
+	position: absolute;
+	left: -9999px;
+}
+
+/*****
+header
+*****/
+#mainmenu {  
+	float: left;
+	width: 94%;
+
+}
+
+.navigationAndLogo {
+
+	height: 35rem;
+} 
+
+h1 {
+	float: left;
+	width: 100%;
+
+}
+
+h1 a {
+	background-image: url(../IMG/Logo.jpg);
+	width: 13.5rem;
+	height: 13.5rem;
+}
+
+nav li {
+	font-size: 2.5rem;
+	text-decoration: none;
+	display: table;
+	margin-left: 1rem;
+	border-bottom: solid;
+	border-color: #9e97a4;
+	border-width: 0.3rem;
+	margin-bottom: 1rem;
+	width: 100%;
+}
+
+nav li:hover {
+	border-color: black;
+}
+
+.current {
+	color: black;
+}
+
+nav a {
+	text-decoration: none;
+	color: #9e97a4;
+}
+
+nav a:hover {
+	color: black;
+}
+
+footer {
+	background-color: #5d4e67;
+	height: 15.5rem;
+	color: #cdcbc1;
+}
+
+footer p {
+	padding-top: 5rem;
+	float: left;
+	margin-left: -1%;
+	width: 100%;
+}
+
+footer a {
+	color: #cdcbc1;
+	text-decoration: underline;
+}
+
+footer li {
+	display: inline-block;
+}
+
+footer #fb {
+	background-image: url(../IMG/FacebookIcon.png);
+	background-repeat: no-repeat;
+	width: 3rem;
+	height: 3rem;
+	background-size: 100%;
+	margin-left: 0.8rem;
+
+}
+
+footer #yt {
+	background-image: url(../IMG/YoutubeIcon.png);
+	background-repeat: no-repeat;
+	width: 3rem;
+	height: 3rem;
+	background-size: 100%;
+	margin-left: 0.8rem;
+}
+
+footer #sc {
+	background-image: url(../IMG/SoundcloudIcon.png);
+	background-repeat: no-repeat;
+	width: 3rem;
+	height: 3rem;
+	background-size: 100%;
+	margin-left: 0.8rem;
+}
+
+footer ul {
+	float: left;
+	margin-left: 0%;
+	margin-top: 2.5rem;
+	width: 100%;
+}
+
+/*	=============
+	Media Queries
+	=============	*/
+
+	@media (min-width: 55.65em) {
+
+		.wrapper {
+			max-width: 200rem;
+			min-width: 61rem; 
+		}
+
+		#mainmenu {
+			float: right;
+			margin-top: 6rem;
+			width: inherit;
+		}
+
+		.navigationAndLogo {
+			height: 14rem;
+			max-width: 53.5%;
+			min-width: 63rem;
+		} 
+
+		h1 {
+			width: 15rem;
+		}
+
+		nav li {
+			font-size: 1.5rem;
+			display: inline;
+			margin-left: 5rem;
+			border-bottom: none;
+		}
+
+		.current {
+			color: black;
+		}
+
+		footer {
+			height: 10.5rem;
+		}	
+
+		footer p {
+			margin-left: 20%;
+			width: inherit;
+		}
+
+		footer ul {
+			float: right;
+			margin-right: 20%;
+			margin-top: 4.5rem;
+			width: inherit;
+		}
+		
+	}
