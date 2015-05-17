@@ -1,6 +1,5 @@
 header {
 	width: 94%;
-
 }
 
 header h2 {
@@ -42,10 +41,12 @@ header h2 {
 	border-color: lightgrey;
 	padding-bottom: 2rem;
 }
+
 .col {
 	width: 94%;
 }
-.song {
+
+.row {
 	display: inline-block;
 	padding-bottom: 7rem;
 	width: 94%;
@@ -83,7 +84,7 @@ header h2 {
 	Media Queries
 	=============	*/
 
-	@media (min-width: 980px) {
+	@media (min-width: 55.65em) {
 		header {
 			border: solid;
 			border-color: white;
@@ -133,7 +134,7 @@ header h2 {
 			width: 89rem;
 		}
 
-		.song {
+		.row {
 			width: 89rem;
 		}
 
@@ -156,4 +157,5 @@ header h2 {
 			background-position: 10.5rem 6rem;
 			background-size: 30%;
 		}
+		
 	}
